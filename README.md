@@ -84,6 +84,9 @@ If you want to bundle as an `.exe`:
 ```bash
 pip install pyinstaller
 pyinstaller --noconsole --onefile --icon icon.ico main.py
+or while in active venv;
+pyinstaller nooxgrok.spec --clean
+
 ```
 
 The output will be in `dist/`.
